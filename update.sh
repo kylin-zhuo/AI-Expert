@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dt=$(date '+%d/%m/%Y %H:%M:%S');
+dt=$(date '+%d/%m/%Y %H:%M:%S')
 
 git add *
-git commit -m dt
+git commit -m "$dt"
 git push
