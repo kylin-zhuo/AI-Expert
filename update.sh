@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dt=$(date '+%d/%m/%Y %H:%M:%S')
+dt=$(date '+%m/%d/%Y %H:%M')
 
 git add *
 git commit -m "$dt"
